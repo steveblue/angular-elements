@@ -1,0 +1,7 @@
+/* line 1, src/app/components/my-button/my-button.component.scss */
+:host {
+  background: #181818;
+  cursor: pointer;
+  color: white;
+  font-weight: 400;
+}

@@ -22,6 +22,12 @@
  *  This also includes Android Emulators with older versions of Chrome and Google Search/Googlebot
  */
 
+ // Used for browsers with partially native support of Custom Elements
+import '@webcomponents/custom-elements/src/native-shim';
+
+// Used for browsers without a native support of Custom Elements
+import '@webcomponents/custom-elements/custom-elements.min';
+
 // import 'core-js/es6/symbol';
 // import 'core-js/es6/object';
 // import 'core-js/es6/function';
