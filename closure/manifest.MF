@@ -1,0 +1,12 @@
+node_modules/rxjs/_fesm2015/index.js
+node_modules/rxjs/_fesm2015/operators/index.js
+node_modules/@angular/core/fesm2015/core.js
+node_modules/@angular/common/fesm2015/common.js
+node_modules/@angular/platform-browser/fesm2015/platform-browser.js
+node_modules/@angular/elements/fesm2015/elements.js
+out-tsc/src/app/components/my-button/my-button.component.js
+out-tsc/src/app/app.module.js
+out-tsc/src/app/components/my-button/my-button.component.ngfactory.js
+out-tsc/src/app/app.module.ngfactory.js
+out-tsc/src/environments/environment.js
+out-tsc/src/main.js
