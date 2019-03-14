@@ -56,8 +56,10 @@ export default [{
     input: 'out-tsc/src/main.js',
     treeshake: true,
     output: {
-        file: 'dist/angular-elements-ngr/bundle.es2015.js',
-        format: 'iife'
+        file: 'dist/angular-elements-ngr/bundle.js',
+        format: 'iife',
+        name: 'app',
+        treeshake: true
     },
     plugins: [
         new ResolveRxjs(),

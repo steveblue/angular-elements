@@ -1,4 +1,4 @@
-import { Component, HostListener } from '@angular/core';
+import { Component, HostListener, ViewEncapsulation } from '@angular/core';
 
 @Component({
   selector: 'my-button',
@@ -12,7 +12,8 @@ import { Component, HostListener } from '@angular/core';
     color: white;
     font-weight: 400;
   }
-  `]
+  `],
+  encapsulation: ViewEncapsulation.Native
 })
 export class MyButtonComponent {
 

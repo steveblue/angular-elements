@@ -2,7 +2,7 @@
   "extends": "./../tsconfig.json",
   "compilerOptions": {
     "outDir": "./../out-tsc",
-    "target": "es2015",
+    "target": "es2016",
     "module": "es2015",
     "stripInternal": true,
     "inlineSources": true,
