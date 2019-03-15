@@ -1,4 +1,4 @@
-import { Component, HostListener, ViewEncapsulation } from '@angular/core';
+import { Component, HostListener, Input, ViewEncapsulation } from '@angular/core';
 
 @Component({
   selector: 'my-button',
@@ -6,26 +6,30 @@ import { Component, HostListener, ViewEncapsulation } from '@angular/core';
   <span>{{model}}</span>
   `,
   styles: [`
-  :host {
-    background: rgba(24, 24, 24, 1);
-    cursor: pointer;
-    color: white;
-    font-weight: 400;
-  }
+    :host {
+        display: inline-block;
+        background: rgba(24, 24, 24, 1);
+        color: white;
+        font-weight: 400;
+        padding: 4px 8px;
+        border-radius: 4px;
+        min-width: 120px;
+        text-align: center;
+        user-select: none;
+        cursor: pointer;
+    }
   `],
   encapsulation: ViewEncapsulation.Native
 })
 export class MyButtonComponent {
 
-  public model: string;
+  @Input() model: string;
 
   @HostListener('click', ['$event'])
   onClick(e) {
     console.log(e)
   }
 
-  constructor() {
-    this.model = 'Click';
-  }
+  constructor() {}
 
 }

@@ -1,7 +1,12 @@
 /* line 1, src/app/components/my-button/my-button.component.scss */
 :host {
-  background: #181818;
+  background: rgba(24, 24, 24, 1);
   cursor: pointer;
   color: white;
   font-weight: 400;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 4px;
+  padding-right: 4px;
+  border-radius: 3px;
 }
